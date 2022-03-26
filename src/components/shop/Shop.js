@@ -15,7 +15,7 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
-  //add to cart
+  //add to cart btn handler
 
   const addToCart = (selectedCart) => {
     const newCart = [...cart, selectedCart];
@@ -30,7 +30,7 @@ const Shop = () => {
     }
   };
 
-  //Choose One cart function
+  //Choose One cart btn
 
   const chooseOneCart = () => {
     const randomItem = chooseOneCartRandomly();
@@ -38,7 +38,7 @@ const Shop = () => {
     setCart(randomProduct);
   };
 
-  //Choose Random cart function
+  //Choose Random cart btn
 
   const chooseOneCartRandomly = (selectedItem) => {
     const newCart = [...cart, selectedItem];
@@ -46,7 +46,7 @@ const Shop = () => {
     return newCart[Math.floor(Math.random() * newCart.length)];
   };
 
-  //Choose Again
+  //Choose Again btn
 
   const chooseAgain = () => {
     setCart([]);
