@@ -1,0 +1,72 @@
+[
+    {
+        "id": "623de41cddaa3754b2afa74e",
+        "picture": "https://media.bakingo.com/heartilicious-love-cake0362blac-310118-A.jpg?tr=w-320,h-240,q-70",
+        "price": 354,
+        "name": "Heartilicious Round"
+    },
+    {
+        "id": "623de41c18f04d81eed9efba",
+        "picture": "https://media.bakingo.com/black-forest-heart-shaped-cake-4-cake0627hbla-A.jpg?tr=w-320,h-240,q-70",
+        "price": 229,
+        "name": "Cherrylicious Cake"
+    },
+    {
+        "id": "623de41cfd2e2607bcd62921",
+        "picture": "https://media.bakingo.com/irish-cream-cake-A.jpg",
+        "price": 416,
+        "name": "Round Vanilla N Choco"
+    },
+    {
+        "id": "623de41c91dd15e08ff33124",
+        "picture": "https://media.bakingo.com/refreshing-coffee-pastries-past0205coff-A.jpg",
+        "price": 447,
+        "name": "Coffee Pastries"
+    },
+    {
+        "id": "623de41c7e253302d1d120f2",
+        "picture": "https://media.bakingo.com/butterscotch-cake-A_1.jpg",
+        "price": 284,
+        "name": "Butterscotch Cake"
+    },
+    {
+        "id": "623de41cabaa0312f2a3e290",
+        "picture": "https://media.bakingo.com/toothsome-chocolate-with-yellow-blooms-rosecake2557choc-A.jpg",
+        "price": 481,
+        "name": "Toothsome Chocolate"
+    },
+    {
+        "id": "623de41cde14a59b0eb35091",
+        "picture": "https://media.bakingo.com/yummy-n-romantic-red-velvet-cake-cake2477redv-A_0.jpg",
+        "price": 475,
+        "name": "Romantic Red Velvet Cake"
+    },
+    {
+        "id": "623de41c18b52175f47b2819",
+        "picture": "https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/products/p-oreo-drip-cake-half-kg-46870-m.jpg",
+        "price": 250,
+        "name": "Oreo Drip Cake"
+    },
+    {
+        "id": "623de41c501f466588823395",
+        "picture": "https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/products/p-heart-shaped-black-forest-vanilla-cake-half-kg--111213-m.jpg",
+        "price": 240,
+        "name": "Black Forest Vanilla Cake"
+    },
+    {
+        "id": "623de41ca08ebae5c9a4c160",
+        "picture": "https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/products/p-special-red-velvet-cake-half-kg--109209-m.jpg",
+        "price": 291,
+        "name": "Special Red Velvet"
+    },{
+       "id": "623dte41ca08ebae5c9a4c160",
+       "picture": "https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/products/p-love-hearts-fresh-cream-valentine-cake-half-kg--153785-m.jpg",
+       "price": 751,
+       "name": "Love Hearts Fresh Cream"
+   },{
+       "id": "623de41uca08ebae5c9a4c160",
+       "picture": "https://cdn.igp.com/f_auto,q_auto,t_pnopt7prodlp/products/p-love-you-valentine-fresh-cream-cake-half-kg--153782-m.jpg",
+       "price": 351,
+       "name": "Valentine Fresh Cream"
+   }
+]

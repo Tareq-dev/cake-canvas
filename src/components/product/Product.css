@@ -1,0 +1,23 @@
+.product {
+  box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.47);
+  border-radius: 15px;
+  height: 250px;
+}
+.row img {
+  padding: 1px;
+  border-radius: 15px 0px 0px 15px;
+  height: 250px;
+  max-width: 100%;
+}
+.col-6 {
+  padding: 0;
+}
+.card-content {
+  padding-left: 8px;
+}
+.cart-btn {
+  background-color: #b3d23d;
+}
+.star {
+  color: #f7c001;
+}
