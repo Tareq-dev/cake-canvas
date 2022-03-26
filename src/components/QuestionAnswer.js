@@ -2,7 +2,7 @@ import React from "react";
 
 const QuestionAnswer = () => {
   return (
-    <div>
+    <div className="container p-5">
       <h1 className="text-center text-primary">Q/A</h1>
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">

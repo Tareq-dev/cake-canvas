@@ -54,7 +54,7 @@ const Shop = () => {
 
   return (
     <div className="p-3">
-      <h3 className="header">Choose Your Own Watch!!</h3>
+      <h3 className="header">Choose Your Favourite Cake!!</h3>
       <div className="cart-container">
         <div className="d-flex justify-content-end">
           <button
@@ -97,7 +97,7 @@ const Shop = () => {
                   className="border-0 rounded-3 p-2 fw-bold light-pink text-dark"
                   onClick={chooseOneCart}
                 >
-                  Choose 1
+                  Choose One For Me
                 </button>
                 <button
                   className="border-0 rounded-3 p-2 fw-bold light-green text-white"
