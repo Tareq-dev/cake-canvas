@@ -53,7 +53,7 @@ const Shop = () => {
   };
 
   return (
-    <div className="p-3">
+    <div className="p-1">
       <h3 className="header">Choose Your Favourite Cake!!</h3>
       <div className="cart-container">
         <div className="d-flex justify-content-end">
@@ -111,7 +111,7 @@ const Shop = () => {
         </div>
       </div>
       <div className="">
-        <div className="product-container p-5">
+        <div className="product-container p-3">
           {products.map((product) => (
             <Product key={product.id} addToCart={addToCart} product={product} />
           ))}
