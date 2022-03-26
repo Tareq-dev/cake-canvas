@@ -94,7 +94,7 @@ const Shop = () => {
 
               <div className="d-flex justify-content-between">
                 <button
-                  className="border-0 rounded-3 p-2 fw-bold light-pink text-white"
+                  className="border-0 rounded-3 p-2 fw-bold light-pink text-dark"
                   onClick={chooseOneCart}
                 >
                   Choose 1
