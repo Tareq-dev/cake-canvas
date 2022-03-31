@@ -18,23 +18,32 @@ const Shop = () => {
   //add to cart btn handler
 
   const addToCart = (selectedCart) => {
-    const newCart = [...cart, selectedCart];
-    if (newCart.length < 5) {
-      setCart(newCart);
+    const exists = cart.find((item) => item.id === selectedCart.id);
+    if (!exists) {
+      const newCart = [...cart, selectedCart];
+      if (newCart.length < 5) {
+        setCart(newCart);
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Sorry...",
+          text: "You can not select more than 4 items!",
+        });
+      }
     } else {
       Swal.fire({
         icon: "error",
         title: "Sorry...",
-        text: "You can not select more than 4 items!",
+        text: "You can not add same item in two times!",
       });
     }
   };
 
   // handle Delete button
-  const handleDelete =(product)=>{
-   const rest = cart.filter(cake => cake.id !== product.id);
+  const handleDelete = (product) => {
+    const rest = cart.filter((cake) => cake.id !== product.id);
     setCart(rest);
-  }
+  };
   //Choose One cart btn
 
   const chooseOneCart = () => {
@@ -94,7 +103,7 @@ const Shop = () => {
             </div>
             <div class="offcanvas-body">
               {cart.map((product, id) => (
-                <Cart key={id} product={product} handleDelete={handleDelete}/>
+                <Cart key={id} product={product} handleDelete={handleDelete} />
               ))}
 
               <div className="d-flex justify-content-between">
