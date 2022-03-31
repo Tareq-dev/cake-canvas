@@ -30,6 +30,11 @@ const Shop = () => {
     }
   };
 
+  // handle Delete button
+  const handleDelete =(product)=>{
+   const rest = cart.filter(cake => cake.id !== product.id);
+    setCart(rest);
+  }
   //Choose One cart btn
 
   const chooseOneCart = () => {
@@ -65,7 +70,7 @@ const Shop = () => {
             aria-controls="offcanvasRight"
           >
             <FontAwesomeIcon icon={faShoppingCart} />
-            <p className="">
+            <p>
               <small className="counter bg-danger">{cart.length}</small>
             </p>
           </button>
@@ -89,7 +94,7 @@ const Shop = () => {
             </div>
             <div class="offcanvas-body">
               {cart.map((product, id) => (
-                <Cart key={id} product={product} />
+                <Cart key={id} product={product} handleDelete={handleDelete}/>
               ))}
 
               <div className="d-flex justify-content-between">

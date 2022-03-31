@@ -1,12 +1,12 @@
 .product {
   box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.47);
   border-radius: 15px;
-  height: 250px;
+  height: 260px;
 }
 .row img {
   padding: 1px;
   border-radius: 15px 0px 0px 15px;
-  height: 250px;
+  height: 260px;
   max-width: 100%;
 }
 .col-6 {
@@ -17,6 +17,9 @@
 }
 .cart-btn {
   background-color: #b3d23d;
+}
+.detail-btn {
+  background-color: #87ceea;
 }
 .star {
   color: #f7c001;
